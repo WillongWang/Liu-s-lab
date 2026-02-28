@@ -7,71 +7,47 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="jialiu@ust.hk"
+  link="jialiu@ust.hk"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="+852 2358-7709"
+  link="+852-2358-7709"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  tooltip="LSK4051, HKUST, Clear Water Bay, Hong Kong"
+  link="https://www.google.com/maps/search/HKUST+Clear+Water+Bay+Hong+Kong"
 %}
 
 {% include section.html %}
 
 {% capture col1 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
+**Office**  
+LSK4051  
+HKUST  
+Clear Water Bay, Hong Kong
 {% endcapture %}
 
 {% capture col2 %}
+**Email**  
+jialiu@ust.hk
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Phone**  
++852 2358-7709
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+**Recruiting**  
+Postdoc · PhD · RA  
+Send CV and transcripts to  
+jialiu@ust.hk
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}

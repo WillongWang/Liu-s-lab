@@ -7,9 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are actively recruiting Postdoc, PhD students, and RAs.
+Please send your CV and transcripts to [jialiu@ust.hk](mailto:jialiu@ust.hk) if interested.
 
 {% include section.html %}
 
@@ -18,18 +17,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+**Postdoc**: The candidates have research papers on AI agents, LLMs, or diffusion models; interested in algorithm design or data visualization for business applications.
 
-{% include section.html %}
+**Ph.D. in IEDA**: The candidates must be familiar with the foundation of operation research and its applications in supply chains, and have experience in big data (e.g., network) analytics.
 
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+**RA**: The candidates must be familiar with LLMs and/or diffusion models, frontend/backend/database for platform design.

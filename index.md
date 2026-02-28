@@ -1,21 +1,15 @@
 ---
 ---
 
-# Lab Website Template
+# Jia Liu 劉佳
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Associate Professor of Marketing, HKUST · [jialiu@ust.hk](mailto:jialiu@ust.hk) · LSK4051, HKUST, Clear Water Bay, Hong Kong
 
 {%
   include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
+  type="email"
+  text="jialiu@ust.hk"
+  link="jialiu@ust.hk"
 %}
 
 {% include section.html %}
@@ -24,12 +18,13 @@ Spend less time worrying about managing a website and citations, and more time r
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Her research spans consumer behavior modeling, big data analytics, recommendation systems, revenue management, global branding, and the application of generative artificial intelligence (AIGC) in business, with a strong focus on integrating marketing science and AI.
+Her work has been published in top-tier journals such as Marketing Science, Management Science, Journal of Marketing Research, and Journal of Marketing.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -41,43 +36,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Our Research"
+  title="Research"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I am currently recruiting Postdoc, PhD students, and RAs.
 
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+- **Postdoc**: research papers on AI agents, LLMs, or diffusion models; interested in algorithm design or data visualization for business applications.
+- **Ph.D. in IEDA**: must be familiar with the foundation of operation research and its applications in supply chains, and have experience in big data (e.g., network) analytics.
+- **RA**: must be familiar with LLMs and/or diffusion models, frontend/backend/database for platform design.
 
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Please send CV and transcripts to [jialiu@ust.hk](mailto:jialiu@ust.hk) if interested.
 
 {%
   include button.html
   link="team"
-  text="Meet our team"
+  text="Meet the team"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -89,6 +65,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Join Us"
+  flip=true
+  style="bare"
+  text=text
+%}
+
+{% capture text %}
+
+Dr. Liu has held research positions at Meta and Microsoft Research and currently serves as a business advisor to the International Digital Economy Academy at Shenzhen.
+She has received prestigious honors including the John Little Award (INFORMS Best Marketing Paper) and the Frank M. Bass Outstanding Paper Award nomination.
+
+{%
+  include button.html
+  link="contact"
+  text="Get in touch"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="contact"
+  title="About"
   text=text
 %}
